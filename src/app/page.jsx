@@ -3,7 +3,6 @@
 import Image from "next/image";
 import {motion} from "framer-motion";
 import Link from "next/link";
-import AboutPage from "./about/page";
 
 const Homepage = () => {
   return (
@@ -17,7 +16,7 @@ const Homepage = () => {
         {/* IMAGE CONTAINER */}
         <div className="h-2/5 lg:h-[85%] mt-1 md:mt-8 rounded-2xl overflow-hidden lg:w-1/2 relative">
           <Image
-            src="/photo.jpg"
+            src="/photo1.jpg"
             alt="photo"
             fill
             className="object-contain lg:object-cover"

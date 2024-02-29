@@ -16,7 +16,7 @@ const Homepage = () => {
         {/* IMAGE CONTAINER */}
         <div className="h-2/5 lg:h-[85%] mt-1 md:mt-8 rounded-2xl overflow-hidden lg:w-1/2 relative">
           <Image
-            src="/photo1.jpg"
+            src="/profile.png"
             alt="photo"
             fill
             className="object-contain lg:object-cover"
